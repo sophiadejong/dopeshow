@@ -1,0 +1,23 @@
+@font-face {		
+	font-family: 'Theinhardt';	
+	src: url('../fonts/Theinhardt-Regular.otf') format("opentype");
+	}
+
+@font-face {		
+	font-family: 'Tabi';	
+	src: url('../fonts/Tabi-Regular.otf');
+	}
+	
+
+body {
+	background: rgb(234,254,255);
+	background: radial-gradient(circle, rgba(234,254,255,1) 83%, rgba(255,255,255,1) 100%);}
+
+h1 {
+  color: #b5b5b5;
+/*   text-align: center; */
+	margin-left: 20vw;
+  margin-top: 20vh;
+  font-family: 'Tabi';	
+  text-shadow:1px 1px 10px #fff, 1px 1px 10px rgba(0, 0, 0, 0.2);
+}
